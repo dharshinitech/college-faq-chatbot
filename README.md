@@ -1,25 +1,23 @@
-# College FAQ Chatbot
+# 🌐 Language Translation Tool
 
-## 📌 Project Overview
-This project is a College FAQ Chatbot built as part of an internship task.  
-It helps students by answering common college-related questions using NLP techniques.
+This project is a simple Language Translation web application built using Streamlit and Google Translator.
+
+## 🚀 Features
+
+- Translate text between English, Tamil, and Hindi
+- Simple and clean UI
+- Fast translation using Google Translator API
 
 ## 🛠 Technologies Used
+
 - Python
 - Streamlit
-- NLTK
-- Scikit-learn
+- deep-translator
 
-## 📂 Features
-- Predefined college FAQ dataset
-- TF-IDF Vectorization
-- Cosine Similarity based question matching
-- Interactive Streamlit UI
+## ▶ How to Run
 
-## 🚀 How to Run the Project
+1. Install dependencies:
+   pip install -r requirements.txt
 
-1. Install required libraries:
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-http://localhost:8501
+2. Run the app:
+   streamlit run app.py
